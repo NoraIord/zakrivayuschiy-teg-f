@@ -13,4 +13,9 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  background-color: var(--background-color);
+  background: var(--gradient-image) fixed;
+  font-family: var(--main-font, "Inter-Variable"), "Arial", sans-serif;
+  font-variation-settings: "wght" var(--card-font-weight, 400);
+  margin-bottom: 103px;
 }
