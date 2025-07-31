@@ -238,7 +238,6 @@
 }
 
 .card__icon-button:focus {
-    border-color: var(--accent-color);
     outline: none;
 }
 
