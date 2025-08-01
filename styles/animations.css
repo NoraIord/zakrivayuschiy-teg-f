@@ -42,7 +42,7 @@
     animation: heart-sparks .3s .3s ease-in;
 }
 
-.like-icon.is-like .contour {
+.like-icon.is-liked .contour {
     fill: var(--animation-fill-color);
     transition: fill .3s .06s linear;
 }

@@ -18,6 +18,8 @@
     <a class="header-logo">&lt;/html&gt;</a>
     <h1 class="header-title">закрывающий тег</h1>
 </header>
+
+
 <main>
     <ul class="card-list">
         <li class="card">
@@ -68,7 +70,7 @@
                             <path
                                     class="sparks"
                                     d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z"
-                                    fill= "var(--animation-fill-color)"
+                                    fill="var(--animation-fill-color)"
                             />
                         </svg>
                     </button>
@@ -124,7 +126,7 @@
                             <path
                                     class="sparks"
                                     d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z"
-                                    fill= "var(--animation-fill-color)"
+                                    fill="var(--animation-fill-color)"
                             />
                         </svg>
                     </button>
@@ -234,7 +236,7 @@
                             <path
                                     class="sparks"
                                     d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z"
-                                    fill= "var(--animation-fill-color)"
+                                    fill="var(--animation-fill-color)"
                             />
                         </svg>
                     </button>
@@ -291,7 +293,7 @@
                             <path
                                     class="sparks"
                                     d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z"
-                                    fill= "var(--animation-fill-color)"
+                                    fill="var(--animation-fill-color)"
                             />
                         </svg>
                     </button>
@@ -316,7 +318,7 @@
                     время посмотреть на задачу под другим углом.</p>
                 <p class="paragraph paragraph-mobile">
                     Сколько же я потеряла нервных клеток на этом этапе... У меня многое не получалось, я поменяла
-                    группу. </p>
+                    группу... </p>
                 <div class="like-heart">
                     <button class="card__icon-button" type="button">
                         <svg
@@ -345,7 +347,7 @@
                             <path
                                     class="sparks"
                                     d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z"
-                                    fill= "var(--animation-fill-color)"
+                                    fill="var(--animation-fill-color)"
                             />
                         </svg>
                     </button>
@@ -362,7 +364,7 @@
                         class="card-image sepia"
                         src="./images/don't_give_up.JPG"
                         alt="картинка с мужчиной и текстом">
-                <span class="image-label">&lt;lifes-style: none;&gt;</span>
+                <span class="image-label">&lt;if (mood=sad)&gt;</span>
             </div>
             <div class="content">
                 <p class="paragraph"> Во время учёбы часто возникает чувство, когда не знаешь, за что
@@ -403,7 +405,7 @@
                             <path
                                     class="sparks"
                                     d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z"
-                                    fill= "var(--animation-fill-color)"
+                                    fill="var(--animation-fill-color)"
                             />
                         </svg>
                     </button>
@@ -460,7 +462,7 @@
                             <path
                                     class="sparks"
                                     d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z"
-                                    fill= "var(--animation-fill-color)"
+                                    fill="var(--animation-fill-color)"
                             />
                         </svg>
                     </button>
@@ -471,20 +473,25 @@
             </div>
         </li>
     </ul>
-    <button class="button footer-button" type="button" onclick="window['dialog'].showModal()" aria-controls="dialog">
-        <svg>
-            <use href="./svg/floppy.svg#floppye"></use>
+    <button class="button footer-button" type="button"
+            onclick="window['dialog'].showModal()"
+            aria-controls="dialog">
+        <svg class="footer-icon" viewBox="0 0 39 39">
+            <use href="./svg/floppy.svg#floppy"></use>
         </svg>
         <span class="button__text">Сохранить на память</span>
     </button>
 </main>
+
+
 <dialog class="dialog" id="dialog">
     <form class="dialog-form" method="dialog">
         <svg class="dialog-image" viewBox="0 0 39 39">
             <use href="./svg/floppy.svg#floppy"></use>
         </svg>
         <p class="dialog-text">Вставьте дискету, чтобы продолжить</p>
-        <button class="dialog-button button" type="submit" onclick="window['dialog'].close()">
+        <button class="dialog-button button" type="submit"
+                onclick="window['dialog'].close()">
             <span class="button__text">ок</span>
         </button>
     </form>
