@@ -136,7 +136,7 @@
     font-family: var(--accent-font), "Courier New", fantasy;
     font-weight: normal;
     font-size: 14px;
-    opacity: .7;
+    opacity: .6;
     inset-block-start: 35px;
     inset-inline-end: 19px;
     text-shadow: 1px 0 0 var(--background-color), 1px 0 0 var(--background-color),
@@ -230,7 +230,7 @@
     justify-content: center;
     box-sizing: border-box;
     border: 2px solid #fff;
-    padding: 4px;
+    padding: 8px;
     transition: border-color ease .3s;
     cursor: pointer;
     height: 38px;
