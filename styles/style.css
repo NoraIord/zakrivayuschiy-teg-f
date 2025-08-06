@@ -136,7 +136,7 @@
     font-family: var(--accent-font), "Courier New", fantasy;
     font-weight: normal;
     font-size: 14px;
-    opacity: .6;
+    opacity: 50%;
     inset-block-start: 35px;
     inset-inline-end: 19px;
     text-shadow: 1px 0 0 var(--background-color), 1px 0 0 var(--background-color),
