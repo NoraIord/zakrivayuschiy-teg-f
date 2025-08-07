@@ -33,7 +33,7 @@
 
 .like-icon.is-liked .heart {
     transform-origin: center;
-    animation: heart-scale .3s .3s ease-in alternate;
+    animation: heart-scale .3s .1s ease-in alternate;
 }
 
 .like-icon.is-liked .sparks {
